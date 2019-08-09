@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://raw.githubusercontent.com/root-jing/root-jing.github.io/master/asset/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/root-jing/root-jing.github.io/master/asset/photos/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/root-jing/blogMedias/master/imgs/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/root-jing/blogMedias/master/imgs/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
