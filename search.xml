@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[人生漫漫，你用什么]]></title>
-    <url>%2F2019%2F08%2F07%2F%E4%BA%BA%E7%94%9F%E6%BC%AB%E6%BC%AB%EF%BC%8C%E4%BD%A0%E7%94%A8%E4%BB%80%E4%B9%88%2F</url>
-    <content type="text"><![CDATA[第一章内容 第二章内容 参考文献www.yang.cn 标签新手试炼]]></content>
+    <title><![CDATA[Thanks,I succeeded]]></title>
+    <url>%2F2019%2F08%2F07%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[大神相助，终开博客 无根何来枝，无根何来叶，无根何来花，无根何来果 经过一天的努力，终于搭建了自己的博客，整个过程也可算是曲曲折折，艰辛至极，从开始的好奇，到后来的完固，一步一步做过，看到了编程的魅力所在，它令我爱不释手，令我失之心痛。 当然了，我要感谢github和博客园，CSDN,简书等等，上面的hexo装饰大神们，特别感谢基本主题创作者,通过你们，我渐渐对以前不是很熟悉的Markdown语言入门，同时也懂得了hexo文件的基本构造。]]></content>
       <tags>
-        <tag>python</tag>
-        <tag>爬虫</tag>
+        <tag>生活方式</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F08%2F07%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[网站集结地]]></title>
+    <url>%2F2019%2F08%2F07%2F%E4%BA%BA%E7%94%9F%E6%BC%AB%E6%BC%AB%EF%BC%8C%E4%BD%A0%E7%94%A8%E4%BB%80%E4%B9%88%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>便捷你我他</tag>
+      </tags>
   </entry>
 </search>
