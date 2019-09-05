@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.top{
+	height: 35px;
+	background-color: #f5f5f5;
+}
+.top .ctop{
+	margin: 0 auto;
+	width: 1250px;
+	
+	
+}
+.top .ctop .leftul{
+	list-style: none;
+
+
+}
+.top .ctop .leftul li a{
+	
+	font-size: 12px;
+	color: rgba(0,0,0,0.6);
+	margin-left: 13px;
+	line-height: 35px;
+	
+}
+.top .ctop .leftul li{
+	float: left;
+}
+.top .ctop .leftul li.goon::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.top .ctop .leftul li.login a{
+	color:#f40;
+	margin-left: 15px;
+}
+.top .ctop .leftul li.goon a{
+	margin-left: 17px;
+}
+
+.top .ctop .leftul li.register a:hover{
+	color: #f40;
+}
+.top .ctop .leftul li.goon a:hover{
+	color: #f40;
+}
+.top .ctop .leftul li.address a:hover{
+	background-color: rgb(255,255,255);
+}
+
+.top .ctop .leftul li.one a:hover{
+	color: #f40;
+}
+.top .ctop .leftul li.one.two{
+	margin-left: 350px;
+}
+.top .ctop .leftul li.one{
+	margin-left: 20px;
+}
+
+
+.top .ctop .leftul::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/**************************************/
+.second .taobaoimg{
+	background-image:url(http://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+	height: 0;
+	overflow: hidden;
+	padding-top: 58px;
+	background-repeat: no-repeat;
+	margin-top: 35px ;
+	/*margin-left: 120px;*/
+
+
+}
+.second{
+	margin: 0 auto;
+	width:1250px;
+}
+.second .searchbox .three{
+	position: relative;
+	/*border:2px solid red;*/
+	width: 700px;
+	height: 100px;
+	top: -70px;
+	left: 260px;
+}
+.second .searchbox .three ul{
+	list-style: none;
+
+}
+.second .searchbox .three .nav-1 li a{
+	float: left;
+	margin-left: 8px;
+	color: #f40;
+	font-size: 14px;
+}
+
+.second .searchbox .three .nav-1 li a.baobei{
+	
+	background-color: #FF4200;
+	color: #fff;
+	border-radius: 95%;
+}
+.second .searchbox .three .nav-1 li a:hover{
+
+	background-color:#FFEEE5; 
+	color: #FF5400;
+	font-size: 14px;
+}
+.second .searchbox .three ul::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.second .searchbox .three .search{
+	
+	width: 600px;
+	height:40px;
+	border:2px solid #f40;
+}
+.second .searchbox .three .find{
+	height:40px;
+	width: 80px;
+	background-color:#FF4200;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder; 
+	border-radius: 99%;
+	border:1px solid #FF4200;
+	cursor: pointer;
+}
+.second .searchbox .three .addition{
+	list-style: none;
+	font-size: 12px;
+}
+.second .searchbox .three .addition li{
+	float: left;
+	margin-left: 6px;
+}
+
+.second .searchbox .three .addition::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.second .screenbox{
+	position:relative;
+	border:1px solid red;
+	width: 80px;
+	height: 95px;
+	top: -180px;
+	left: 1100px;
+}
+
+.main{
+	height: 1200px;
+	background-color: #f5f5f5;
+	margin-top: -175px;
+}
+.main .autoed .storeleft{
+	width: 20%;
+	height: 580px;
+	border:2px solid #f40;
+	/*margin-left: 120px;*/
+	background-color: #fff;
+}
+.main .autoed .storeright{
+	width: 70%;
+	height: 580px;
+	border:2px solid #f40;
+	border-left: 0px;
+	position: absolute;
+	left: 250px;
+	top: 0;
+	border-right: 0px solid #f40;
+
+
+	
+}
+.main .autoed{
+	margin: 0 auto;
+	width: 1250px;
+	position: relative;
+}
+.main .storeleft,.storeright
+{
+	/*float:left;*/
+
+}
+.main .storeright ul{
+	list-style: none;
+	background-color: #fff;
+}
+.main .autoed::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.main .storeright ul li{
+	float: left;
+	margin-left: 16px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	font-weight:bold;
+
+}
+.main .storeright ul::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.main .storeright ul li.three a{
+	color: #f40;
+}
+/*疑问点疑问点疑问点疑问点疑问点疑问点疑问点疑问点疑问点疑问点疑问点疑问点*/
+.main .storeright ul li.three a:hover{
+	background-color: #f40;
+	color: #fff;
+	
+}
+
+.main .storeright ul li a:hover{
+	background-color: #fff;
+	color: #f40;
+	
+}
+
+.main .autoed .storeleft .click{
+	background-color: #fff;
+	color: rgba(0,0,0,0.6);
+	text-align: center;
+	height: 24px;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight:normal;
+	margin: 8px 0;
+	cursor: pointer;
+}
+.main .autoed .storeleft .click:hover{
+	background-color:#FFEEE5;
+	color: #f40;
+}
+
+.main .autoed .storeright .img-1{
+	width: 520px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.main .autoed .storeright .img-2{
+	height: 290px;
+	margin: 5px;
+	cursor: pointer;
+}
+.main .autoed .storeright .two{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.main .autoed .storeright .last{
+	position: relative;
+	border:2px solid red;
+	top: -530px;
+	left:730px;
+	width: 250px;
+	height: 520px;
+}
+
+.main .autoed .storeright .last .login{
+	background-color: #fff;
+	height: 150px;
+	border:1px solid red;
+}
+.main .autoed .storeright .last .web{
+	color: #f40;
+	height: 22px;
+	border:1px solid red;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+	background-color: #FFEEE5;
+	cursor: pointer;
+}
+.main .autoed .storeright .last .login .text{
+	/*background-image: url(http://gw.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_160x160.jpg);*/
+	text-align: center;
+	font-size: 10px;
+
+
+}
+
+.main .autoed .storeright .last .login .iamgeya{
+	width: 50px;
+	height: 50px;
+	margin-left: 100px;
+}
+.main .autoed .storeright .last .login .button1,
+.button2,.button3{
+border:1px solid #f40;
+	color: #fff;
+	background-color: #f40;
+	width: 60px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.main .autoed .storeright .last .i{
+	background-color: #FFEEE5;
+	color: #f40;
+	margin-left: 10px;
+	font-size: 12px;
+}
