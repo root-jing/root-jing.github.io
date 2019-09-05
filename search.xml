@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[我的HTML作业]]></title>
     <url>%2F2019%2F09%2F05%2F%E6%88%91%E7%9A%84HTML%E4%BD%9C%E4%B8%9A%2F</url>
-    <content type="text"><![CDATA[会的就是会，我清楚今年下半年事情真的多，所以就将原来的作品展示了，也以此作为今年下半年的HTML和css的作业上交。]]></content>
+    <content type="text"><![CDATA[很多东西都难以坚持就比如说我的第一部作品《幻化平行猜测》,思路没有完全设计好就盲目写作，最终卡在了破梦人和寻梦者的关系之上。]]></content>
       <tags>
         <tag>HTML和CSS作业</tag>
       </tags>
@@ -13,9 +13,17 @@
     <url>%2F2019%2F08%2F11%2Ftornado%2F</url>
     <content type="text"><![CDATA[玩了django不过瘾怎么办，给你tornado的基本项目目录，整理了一天的成果这里附加上数据库中查询名字的操作，自己写的，不高效，但可以用,low爆了，但是是自己的思路，所以分享出来。 project .idea pycache ORM（需要你有牢固的数据库知识去加强ORM映射） init_.py orm.py（不完善） YJSMysql.py static（静态文件） css font html index.html(你的主页，类比百度) img js templates（模板） upfile（上传文件） views（类比django叫视图，这里是handler） application.py（类比django叫urls.py） config.py（配置，类比django叫setting.py） models.py(模型，数据库的表名一定要与模型类名相同) server.py（开启服务运行 python server.py 即可，配置默认绑定localhost:8000） 12345678910111213141516171819202122232425262728293031323334353637383940def loginSucess(username, password): flag = 0 userinfolist = UserInfo.all() # 判断名字是否存在 # 存在则返回True,不存在返回False def nameExist(name): flag = 0 sqlUserNames=[] for man in userinfolist: sqlUserNames.append(man['username']) if name in sqlUserNames: flag = True else: flag = False return flag # 名字存在后再进行密码确认 if nameExist(name): # 获得正确的元组(name，password),(name，password),(name，password) NPList = [] for man in userinfolist: # 此处字典无序列表 t = &#123;man['username']:man['password']&#125; NPList.append(t) for body in NPList: boolList = [] for k,v in body.items(): if pwd == body[k]: boolList.append(1) if 1 in boolList: flag=True else: # 密码输入错误处理 info='密码输入错误' pass return flag else: # 用户名不存在处理 info='用户名不存在' self.redirect('/login') return False 在登陆注册可能要用到验证码 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748class GetVerifyCodeHandler(RequestHandler): def get(self,*args,**kwargs): # import VerifyCode import io # 引入绘图模块 from PIL import Image, ImageDraw, ImageFont # 引入随机数模块 import random # 定义变量,用于画面的背景色，宽，高 bgcolor = (random.randrange(20, 100), random.randrange(20, 100), random.randrange(20, 100)) width = 100 height = 50 # 创建画面对象 im = Image.new('RGB', (width, height), bgcolor) # 创建画笔对象 draw = ImageDraw.Draw(im) # 调用画笔的point()函数绘制噪点 for i in range(0, 100): xy = (random.randrange(0, width), random.randrange(0, height)) fill = (random.randrange(0, 255), 255, random.randrange(0, 255)) draw.point(xy, fill=fill) # 定义验证码的备选值 str = '1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm' # 随机选取4个值作为验证码 rand_str = '' for i in range(0, 4): rand_str += str[random.randrange(0, len(str))] # 构造字体对象 # font = ImageFont.truetype(r'C:\Windows\Fonts\9PX3BUS(1).TTF', 20) font = ImageFont.truetype(r'static/font/AMRIGOB.TTF', 20) # 构造字体颜色 fontcolor1 = (255, random.randrange(0, 255), random.randrange(0, 255)) fontcolor2 = (255, random.randrange(0, 255), random.randrange(0, 255)) fontcolor3 = (255, random.randrange(0, 255), random.randrange(0, 255)) fontcolor4 = (255, random.randrange(0, 255), random.randrange(0, 255)) # 绘制4个字 draw.text((5, 2), rand_str[0], font=font, fill=fontcolor1) draw.text((25, 10), rand_str[1], font=font, fill=fontcolor2) draw.text((50, 20), rand_str[2], font=font, fill=fontcolor3) draw.text((75, 15), rand_str[3], font=font, fill=fontcolor4) # print(rand_str) # 释放画笔 del draw self.set_cookie('code',rand_str) buf = io.BytesIO() im.save(buf, 'png') self.set_header("content-type", "image/png") self.write(buf.getvalue()) torndo资源 百度云]]></content>
       <tags>
-        <tag>python</tag>
         <tag>tornado</tag>
+        <tag>python</tag>
         <tag>前后端交互</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[难以割舍的爱]]></title>
+    <url>%2F2019%2F08%2F07%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[大神相助，终开博客 无根何来枝，无根何来叶，无根何来花，无根何来果 经过一天的努力，终于搭建了自己的博客，整个过程也可算是曲曲折折，艰辛至极，从开始的好奇，到后来的完固，一步一步做过，看到了编程的魅力所在，它令我爱不释手，令我失之心痛。 当然了，我要感谢github和博客园，CSDN,简书等等，上面的hexo装饰大神们，特别感谢基本主题创作者,通过你们，我渐渐对以前不是很熟悉的Markdown语言入门，同时也懂得了hexo文件的基本构造。]]></content>
+      <tags>
+        <tag>生活方式</tag>
       </tags>
   </entry>
   <entry>
@@ -32,14 +40,6 @@
         <tag>bootstrap</tag>
         <tag>linux</tag>
         <tag>网络协议及安全</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[难以割舍的爱]]></title>
-    <url>%2F2019%2F08%2F07%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[大神相助，终开博客 无根何来枝，无根何来叶，无根何来花，无根何来果 经过一天的努力，终于搭建了自己的博客，整个过程也可算是曲曲折折，艰辛至极，从开始的好奇，到后来的完固，一步一步做过，看到了编程的魅力所在，它令我爱不释手，令我失之心痛。 当然了，我要感谢github和博客园，CSDN,简书等等，上面的hexo装饰大神们，特别感谢基本主题创作者,通过你们，我渐渐对以前不是很熟悉的Markdown语言入门，同时也懂得了hexo文件的基本构造。]]></content>
-      <tags>
-        <tag>生活方式</tag>
       </tags>
   </entry>
 </search>
